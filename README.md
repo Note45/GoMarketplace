@@ -10,6 +10,36 @@ Nesse desafio, você desenvolverá uma nova aplicação, a GoMarketplace. Dessa 
 <img src='./prints/dashboard.png' alt='Page dashboard' />
 <img src='./prints/cart.png' alt='Page cart' />
 
+### Utilizando uma fake API
+
+Antes de tudo, para que você tenha os dados para exibir em tela, criamos um arquivo que você poderá utilizar como fake API para te prover esses dados.
+
+Para isso, deixamos instalado no seu package.json uma dependência chamada `json-server`, e um arquivo chamado `server.json` que contém os dados para uma rota `/products`. Para executar esse servidor você pode executar o seguinte comando:
+
+```js
+  yarn json-server server.json -p 3333
+```
+
+### Executando aplicação
+
+Após clonar o repositório em sua máquina, execute a api fake acompanhado de um emulador de sua escolha. Com as duas etapas iniciais concluídas é só executar os comandos abaixo em um terminal dentro da pasta raiz do projeto. 
+
+```js
+  yarn start
+```
+
+Para android: 
+
+```js
+  yarn android
+```
+
+Para IOs: 
+
+```js
+  yarn ios
+```
+
 ### License
 MIT License
 
